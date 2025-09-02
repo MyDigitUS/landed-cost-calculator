@@ -1,6 +1,6 @@
 # Vercel Deployment Guide
 
-This guide will help you deploy the Tariff Impact Calculator to Vercel with all necessary configurations.
+This guide will help you deploy the Landed Cost Calculator to Vercel with all necessary configurations.
 
 ## Prerequisites
 
@@ -14,7 +14,7 @@ This guide will help you deploy the Tariff Impact Calculator to Vercel with all 
 
 1. Go to [vercel.com](https://vercel.com) and sign in with GitHub
 2. Click **"Add New..."** → **"Project"**
-3. Find your repository: `MyDigitUS/tariff-impact-calculator`
+3. Find your repository: `MyDigitUS/landed-cost-calculator`
 4. Click **"Import"**
 
 ### Option B: Vercel CLI
@@ -33,7 +33,7 @@ vercel
 # - Set up and deploy? Yes
 # - Which scope? (your-username)
 # - Link to existing project? No
-# - What's your project's name? tariff-impact-calculator
+# - What's your project's name? landed-cost-calculator
 # - In which directory is your code located? ./
 ```
 
@@ -150,8 +150,8 @@ npx @next/bundle-analyzer
 
 After deployment, you'll have:
 
-- **Production**: `https://tariff-impact-calculator.vercel.app`
-- **Preview**: `https://tariff-impact-calculator-git-[branch].vercel.app`
+- **Production**: `https://landed-cost-calculator.vercel.app`
+- **Preview**: `https://landed-cost-calculator-git-[branch].vercel.app`
 - **Development**: `http://localhost:3000`
 
 ## 9. Troubleshooting
@@ -272,6 +272,6 @@ export const config = {
 5. **Plan custom domain** setup if needed
 
 **Production URL**: Will be provided after deployment
-**Repository**: https://github.com/MyDigitUS/tariff-impact-calculator
+**Repository**: https://github.com/MyDigitUS/landed-cost-calculator
 
 Ready to deploy! 🚀

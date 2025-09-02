@@ -1,6 +1,6 @@
 # Supabase Setup Guide
 
-This guide will help you set up a Supabase project for the Tariff Impact Calculator.
+This guide will help you set up a Supabase project for the Landed Cost Calculator.
 
 ## 1. Create Supabase Project
 
@@ -10,7 +10,7 @@ This guide will help you set up a Supabase project for the Tariff Impact Calcula
 4. Click "New project"
 5. Choose your organization
 6. Fill in project details:
-   - **Name**: `tariff-impact-calculator`
+   - **Name**: `landed-cost-calculator`
    - **Database Password**: Generate a strong password (save it!)
    - **Region**: Choose closest to your users
    - **Pricing Plan**: Free tier (sufficient for MVP)
@@ -170,7 +170,7 @@ Check the browser console for any Supabase connection errors.
 
 - [Supabase Documentation](https://supabase.com/docs)
 - [Supabase Discord](https://discord.supabase.com)
-- [GitHub Issues](https://github.com/MyDigitUS/tariff-impact-calculator/issues)
+- [GitHub Issues](https://github.com/MyDigitUS/landed-cost-calculator/issues)
 
 ---
 

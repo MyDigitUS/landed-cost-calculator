@@ -1,12 +1,12 @@
-# Tariff Impact Calculator
+# Landed Cost Calculator
 
-A modern SaaS application helping e-commerce store owners calculate the true cost of importing products, including tariffs, shipping, and fees.
+A modern SaaS application helping e-commerce store owners calculate the true landed cost of importing products, including tariffs, shipping, and fees.
 
 **🚀 Current Status: Phase 1 Complete** | **Next: Phase 2 MVP Development**
 
 ## 🎯 Project Overview
 
-**Vision**: Simple, accurate tariff impact calculator that helps e-commerce businesses make informed importing and pricing decisions.
+**Vision**: Simple, accurate landed cost calculator that helps e-commerce businesses make informed importing and pricing decisions.
 
 **Target Users**: Small to medium e-commerce business owners, product sourcing managers, import/export specialists.
 
@@ -64,8 +64,8 @@ A modern SaaS application helping e-commerce store owners calculate the true cos
 
 ```bash
 # Clone repository
-git clone https://github.com/MyDigitUS/tariff-impact-calculator.git
-cd tariff-impact-calculator
+git clone https://github.com/MyDigitUS/landed-cost-calculator.git
+cd landed-cost-calculator
 
 # Install dependencies
 npm install
@@ -89,7 +89,7 @@ npm run type-check # TypeScript type checking
 ## 📝 Project Structure
 
 ```
-tariff-calculator/
+landed-cost-calculator/
 ├── src/
 │   ├── app/                     # Next.js App Router
 │   │   ├── layout.tsx          # Root layout

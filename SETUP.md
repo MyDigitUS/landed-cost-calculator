@@ -10,10 +10,10 @@ Since we need to set up GitHub authentication, please follow these steps:
 gh auth login
 
 # Create the repository
-gh repo create tariff-impact-calculator --description "Landing cost calculator for e-commerce importers - MVP to SaaS platform" --public
+gh repo create landed-cost-calculator --description "Landing cost calculator for e-commerce importers - MVP to SaaS platform" --public
 
 # Add remote and push
-git remote add origin https://github.com/[YOUR_USERNAME]/tariff-impact-calculator.git
+git remote add origin https://github.com/[YOUR_USERNAME]/landed-cost-calculator.git
 git add .
 git commit -m "Initial commit: Project setup and documentation"
 git push -u origin main
@@ -21,7 +21,7 @@ git push -u origin main
 
 ### Option B: Manual Setup
 1. Go to [GitHub](https://github.com/new)
-2. Repository name: `tariff-impact-calculator`
+2. Repository name: `landed-cost-calculator`
 3. Description: `Landing cost calculator for e-commerce importers - MVP to SaaS platform`
 4. Set as Public
 5. Don't initialize with README (we have one)
